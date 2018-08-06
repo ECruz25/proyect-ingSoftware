@@ -14,7 +14,7 @@ const usuarioSchema = mongoose.Schema({
     ciudad: {
         type: String
     },
-    fecha_nacimiento: {
+    fechaNacimiento: {
         type: Date
     },
     edad: {
