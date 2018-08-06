@@ -26,10 +26,9 @@ const usuarioSchema = mongoose.Schema({
     genero: {
         type: String
     },
-
     rol: {
         type: String
     }
 });
 
-module.exports = mongoose.model('Usuario', cursoSchema);
+module.exports = mongoose.model('Usuario', usuarioSchema);
