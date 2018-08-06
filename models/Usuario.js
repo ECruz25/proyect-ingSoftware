@@ -20,15 +20,13 @@ const usuarioSchema = mongoose.Schema({
     edad: {
         type: number
     },
-    nivel_educativo: {
+    nivelEducativo: {
         type: String
     },
     genero: {
         type: String
     },
-    password: {
-        type: String
-    },
+
     rol: {
         type: String
     }
