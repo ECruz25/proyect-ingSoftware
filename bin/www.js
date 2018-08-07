@@ -4,6 +4,9 @@
  * Module dependencies.
  */
 
+require('../models/Usuario');
+require('../models/Curso');
+
 var app = require('../app');
 var debug = require('debug')('proyecto-ingsoftware:server');
 var http = require('http');
